@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "BinaryClock")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/BinaryClock.kicad_sym")(options "")(descr "Symbols extracted from this schematic snapshot"))
+  (lib (name "Custom Models")(type "KiCad")(uri "${KIPRJMOD}/Custom_Libraries/Custom Models.kicad_sym")(options "")(descr "Symbols extracted from this schematic snapshot"))
+)

@@ -1,0 +1,150 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-17T02:11:28",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/fafbf06b-f7a7-4b3e-a964-842fdc1136ba",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 8 [EVI, Input, Line]",
+                            "pos": {
+                                "x": 0.254,
+                                "y": 1.4097
+                            },
+                            "uuid": "c416bcdc-e007-48bd-b37d-b7adedf0dbf3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 6 [VBACKUP, Power input, Line]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 1.2827
+                            },
+                            "uuid": "c4e624cc-e480-41fc-b5f4-ec6b5f033797"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin A1-B12 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 0.5334,
+                                "y": 0.2921
+                            },
+                            "uuid": "23c296a6-b2f0-4383-84a9-f69e4a6ab118"
+                        },
+                        {
+                            "description": "Symbol J1 Pin B1-A12 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 0.4191
+                            },
+                            "uuid": "0f9bb5e2-a495-4fad-95e7-5251667ba7d7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin A4-B9 [VBUS, Power input, Line]",
+                            "pos": {
+                                "x": 0.5334,
+                                "y": 0.3175
+                            },
+                            "uuid": "191142d2-e321-4d19-aeee-d1d9e7fe1637"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 4 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 1.016,
+                                "y": 1.0287
+                            },
+                            "uuid": "18de1382-8dd7-47fe-9296-38c3287c86a2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'RTC_EVI'",
+                            "pos": {
+                                "x": 0.1524,
+                                "y": 1.4097
+                            },
+                            "uuid": "1f6d3cc8-4a48-4e67-9722-289fd095d1c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'LED_EVI'",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 2.1844
+                            },
+                            "uuid": "b710743d-8523-4d5d-a919-d99b744dc39d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "BinaryClock3.kicad_sch"
+}
