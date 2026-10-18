@@ -24,7 +24,7 @@ Open [Hardware/BinaryClock3.kicad_pro](Hardware/BinaryClock3.kicad_pro) in KiCad
 ![Front copper and silkscreen](images/FrontLayout.svg)
 ![Back copper and silkscreen, mirrored for viewing from the back](images/BackLayout.svg)
 
-[Inner layer 1](images/Inner1.svg) · [Inner layer 2](images/Inner2.svg)
+![Inner layer 1](images/Inner1.svg) · ![Inner layer 2](images/Inner2.svg)
 
 The saved board has **four copper layers** and a **1.6 mm thickness setting**. The plotted outline is approximately **60 × 30 mm**, larger than the original 50 × 30 mm target. Its saved appearance uses white front solder mask and blue back solder mask. The stackup currently specifies no copper finish; these settings need reconciliation with the intended manufacturing order.
 
